@@ -1,0 +1,13 @@
+body{
+    background: white;
+}
+
+body #check textarea{
+    background: white;
+    border: 1px solid black;
+}
+
+body #btn_submit{
+    background: white;
+    border: 1px solid black;
+}

@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+  "name": "Replacer",
+  "version": "1.0",
+  "icons": {
+    "16": "Replacer_16.png",
+    "32": "Replacer_32.png",
+    "48": "Replacer_48.png",
+    "128": "Replacer_128.png"
+  },
+
+  "browser_action": {
+    "default_title": "Open Replacer",
+    "default_icon": "Replacer_48.png",
+    "default_popup": "popup.html"
+  },
+
+  "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'"
+}
